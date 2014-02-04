@@ -1,0 +1,203 @@
+
+body{
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: #FF7A1C;
+   
+}
+p{
+     font-family: 'Prosto One';
+}
+
+section {
+    border-radius: 5px;
+}
+
+#banner {
+    height: 100px;
+    background-color: #FFF;
+    border: 1px solid #000;
+    width: 500px;
+}
+
+h1{
+    letter-spacing: 1.2px;
+    font-family: 'Baumans';
+    color: #FFFFFF;
+    font-size: 4.2em;
+}
+
+h3{
+    font-family: 'Baumans';
+    font-size: 4.2em;
+    color: #000;
+}
+
+h2{
+    font-family: 'Baumans';
+    font-size: 1.6em;
+    color: #000;
+}
+
+.banner{
+    background-color: #0DBA0F;
+    color: #fff;
+    font-size: 1.2em;   
+    text-align: center;
+    left: -10px;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;
+    width: 520px;
+}
+
+.banner::before{
+    border-color: transparent #097509 #097509 transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: -10px;
+}
+
+.banner::after{
+    border-color: transparent transparent #097509 #097509;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    right: 0;
+    position: absolute;
+    top: -10px;
+}
+
+.help{
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #AAA;
+    background-color: #F1EDE6;
+    border: 1px solid #D3CDAE;
+    font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+}
+
+.help::before{
+    border-color: transparent #D3CDAE transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    left: -28px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+}
+
+.tnt{
+    border-radius: 50%;
+    border: 20px solid #000;
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    
+}
+
+ul{
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #7407AF;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    height: 35px;
+    list-style: none;
+    padding: 0;
+    width: 406px;
+}
+
+li{
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    font-family: 'Baumans';
+    float: left;
+    line-height: 35px;
+    font-size: 1.2em;
+    width: 100px;
+    text-align: center;
+}
+
+li:hover{
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    background-color: #4C0A72;
+    color: #FCFC05;
+    cursor: pointer;
+}
+
+li:first-child{
+    border-left: none;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+.hint{
+    transition: opacity 1s;
+    display: inline-block;
+    opacity: 0;
+    background-color: #FCE76F;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    font-size: 0.8em;
+    margin-left: 20px;
+    padding: 3px;
+}
+
+input{
+    border-radius: 4px;
+}
+
+input:focus + .hint{
+    opacity: 0.8;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid #CCC;
+    box-shadow: inset 2px 2px 2px #EEE;
+    font-size: 0.9em;
+    padding: 2px 5px;.
+}
+
+.container{
+    height: 300px;
+    position: relative;
+    width: 200px;
+}
+
+.card{
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.card section{
+    -webkit-backface-visibility: hidden;
+    background-color: #FFF;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.signup{
+    -webkit-transform: rotateY(180deg);
+}
+
